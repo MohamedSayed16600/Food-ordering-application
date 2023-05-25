@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.wagba.ui.Home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+    <fragment
+        android:id="@+id/nav_orderhistory"
+        android:name="com.example.wagba.ui.Favorites.Orderhis"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_order_his" />
+    <fragment
+        android:id="@+id/myCartFragment"
+        android:name="com.example.wagba.MyCartFragment"
+        android:label="@string/my_cart"
+        tools:layout="@layout/fragment_my_cart" />
+
+    <fragment
+        android:id="@+id/trackorder"
+        android:name="com.example.wagba.profile"
+        android:label="fragment_trackorder"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.wagba.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

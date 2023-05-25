@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trackorder">
+
+
+    <TextView
+        android:id="@+id/orderdeliveredtext"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="54dp"
+        android:gravity="center"
+        android:text="Your Order Arrived"
+        android:textColor="@color/lbg"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/CancelOrderButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/deliveringordertext"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="150dp"
+        android:gravity="center"
+        android:text="Delivering Your Order"
+        android:textColor="@color/lbg"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/CancelOrderButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/preparingordertext"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="246dp"
+        android:gravity="center"
+        android:text="Preparing Your Order"
+        android:textColor="@color/lbg"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/CancelOrderButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/orderIDCaption"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Order_id"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/OrderIdValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="42AC98345BH"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/CancelOrderButton"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="132dp"
+        android:backgroundTint="#E51C24"
+
+        android:text="Cancel Order"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/orderplacedtext"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="342dp"
+        android:gravity="center"
+        android:text="Order Placed"
+        android:textColor="@color/Dred"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/CancelOrderButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
