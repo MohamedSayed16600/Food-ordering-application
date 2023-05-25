@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1050759775888",
+    "firebase_url": "https://wagba-a549b-default-rtdb.firebaseio.com",
+    "project_id": "wagba-a549b",
+    "storage_bucket": "wagba-a549b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050759775888:android:1057c4758655c2c4533a15",
+        "android_client_info": {
+          "package_name": "com.example.projectsecondtry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050759775888-kaetjfotrjo3s7bg6tcg5ndj5tjqls44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projectsecondtry",
+            "certificate_hash": "104d7a951595fccac1f55614a3563d1155b8f22b"
+          }
+        },
+        {
+          "client_id": "1050759775888-j0s6ofrh9p7i818m458vs0m30avi7mr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfscis4Xr_vWSkA9Ttqj8DgWxi5yPmJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050759775888-j0s6ofrh9p7i818m458vs0m30avi7mr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050759775888:android:e69db2236ba0c12b533a15",
+        "android_client_info": {
+          "package_name": "com.example.wagba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050759775888-j0s6ofrh9p7i818m458vs0m30avi7mr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfscis4Xr_vWSkA9Ttqj8DgWxi5yPmJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050759775888-j0s6ofrh9p7i818m458vs0m30avi7mr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050759775888:android:1e33d497540f926b533a15",
+        "android_client_info": {
+          "package_name": "com.example.wagbaadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050759775888-j0s6ofrh9p7i818m458vs0m30avi7mr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKfscis4Xr_vWSkA9Ttqj8DgWxi5yPmJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050759775888-j0s6ofrh9p7i818m458vs0m30avi7mr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
